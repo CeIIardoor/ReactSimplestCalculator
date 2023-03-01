@@ -63,7 +63,7 @@ function App() {
         <input
           pattern="[0-9]" 
           ref={inputRef} 
-          type="text"
+          type="number"
           placeholder="Type a number" 
         /> 
         <button onClick={plus}>add</button> 
